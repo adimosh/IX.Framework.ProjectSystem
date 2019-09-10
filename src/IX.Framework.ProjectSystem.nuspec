@@ -2,7 +2,7 @@
 <package >
     <metadata minClientVersion="4.0">
 		<id>IX.Framework.ProjectSystem</id>
-		<version>1.0.0.1</version>
+		<version>1.0.0.2</version>
 		<title>IX Framework Project System</title>
 		<authors>Adrian Mos</authors>
 		<owners>Adrian Mos</owners>
