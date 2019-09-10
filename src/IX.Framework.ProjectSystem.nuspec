@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+    <metadata minClientVersion="4.0">
+		<id>IX.Framework.ProjectSystem</id>
+		<version>1.0.0.1</version>
+		<title>IX Framework Project System</title>
+		<authors>Adrian Mos</authors>
+		<owners>Adrian Mos</owners>
+		<developmentDependency>true</developmentDependency>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/adimosh/IX.Framework/</projectUrl>
+		<description>A project system package for IX.Framework.</description>
+		<copyright>Adrian Mos, 2016</copyright>
+		
+		<contentFiles>
+			<files include="**/*.cs" buildAction="Compile" />
+		</contentFiles>
+    </metadata>
+	
+    <files>
+        <!-- Props and Targets -->
+        <file src="build\**" target="build" />
+
+        <!-- Content files -->
+        <file src="contentFiles\**" target="contentFiles" />
+
+        <!-- Readme -->
+        <file src="readme.txt" target="" />
+    </files>
+</package>
