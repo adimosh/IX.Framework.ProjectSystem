@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <!-- Error on obsolete target frameworks, if it was requested -->
-  <Target Name="ErrorOnObsoleteFrameworks" BeforeTargets="Build;Rebuild">
+  <Target Name="ErrorOnObsoleteFrameworks" BeforeTargets="Build;Rebuild;BeforeBuild;CoreCompile">
     <Error Condition="'$(TargetFrameworkIsObsolete)|$(FailObsoleteTargetFrameworks)'=='true|true'" Text="The target framework $(TargetFramework) is considered obsolete, and should be avoided." />
   </Target>
 
