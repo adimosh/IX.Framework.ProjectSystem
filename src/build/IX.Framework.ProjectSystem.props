@@ -32,11 +32,6 @@
     <FileVersion>$(VersionPrefix)</FileVersion>
   </PropertyGroup>
 
-  <!-- Documentation file -->
-  <PropertyGroup>
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-  </PropertyGroup>
-
   <!-- SourceLink -->
   <PropertyGroup>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>

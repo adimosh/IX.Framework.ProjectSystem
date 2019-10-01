@@ -2,7 +2,7 @@
 <package >
     <metadata minClientVersion="4.0">
     <id>IX.Framework.ProjectSystem</id>
-    <version>1.0.0.8</version>
+    <version>1.0.0.10</version>
     <title>IX Framework Project System</title>
     <authors>Adrian Mos</authors>
     <owners>Adrian Mos</owners>
@@ -12,10 +12,7 @@
     <projectUrl>https://github.com/adimosh/IX.Framework/</projectUrl>
     <description>Changed JetBrains annotations to exclude nothing.</description>
     <copyright>Adrian Mos, 2016</copyright>
-    <releaseNotes>- Removed all references from targets, updated for Directory.Build.targets.
-- Removed disabling of implicit references.
-- Fixed conditional symbols included in props
-- Removed source code duplicate build files and replaced with link</releaseNotes>
+    <releaseNotes>- Changed XML from props to targets.</releaseNotes>
 
     <contentFiles>
       <files include="**/*.cs" buildAction="Compile" />

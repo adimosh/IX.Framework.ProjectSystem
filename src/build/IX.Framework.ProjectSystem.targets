@@ -1,5 +1,10 @@
 <Project>
 
+  <!-- Documentation file -->
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
   <!-- Do not include VS Code-specific files -->
   <ItemGroup>
     <Compile Remove=".vscode\**" />
