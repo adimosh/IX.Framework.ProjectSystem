@@ -2,7 +2,7 @@
 <package >
     <metadata minClientVersion="4.0">
     <id>IX.Framework.ProjectSystem</id>
-    <version>1.0.0.10</version>
+    <version>1.0.1</version>
     <title>IX Framework Project System</title>
     <authors>Adrian Mos</authors>
     <owners>Adrian Mos</owners>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/adimosh/IX.Framework/</projectUrl>
-    <description>Changed JetBrains annotations to exclude nothing.</description>
+    <description>SemVer 2.0 implemented.</description>
     <copyright>Adrian Mos, 2016</copyright>
     <releaseNotes>- Changed XML from props to targets.</releaseNotes>
 
