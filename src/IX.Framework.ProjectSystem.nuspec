@@ -2,7 +2,7 @@
 <package >
     <metadata minClientVersion="4.0">
     <id>IX.Framework.ProjectSystem</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>IX Framework Project System</title>
     <authors>Adrian Mos</authors>
     <owners>Adrian Mos</owners>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/adimosh/IX.Framework/</projectUrl>
-    <description>SemVer 2.0 implemented.</description>
+    <description>A project system for IX.Framework projects. This package is used for building IX.Framework.</description>
     <copyright>Adrian Mos, 2016</copyright>
-    <releaseNotes>- Changed XML from props to targets.</releaseNotes>
+    <releaseNotes>- Fixed description in nuspec.
+- Added an extra suppression.</releaseNotes>
 
     <contentFiles>
       <files include="**/*.cs" buildAction="Compile" />
